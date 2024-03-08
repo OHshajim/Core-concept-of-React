@@ -39,13 +39,13 @@ function App() {
       <Device name="laptop" price="150k"></Device>
       <Device name="Mobile" price="40k"></Device>
       
-      {/* <hr />
+      <hr />
       <h4>style on other page</h4>
-      <Student score="98+"></Student> */}
+      <Student score="98+"></Student> 
 
-      {/* <hr />
+       <hr />
       <h4>Style in line</h4>
-      <Developer></Developer> */}
+      <Developer></Developer> 
     </>
   )
 }
@@ -73,6 +73,26 @@ function Student(props) {
   )
 }
 
-
+// css style system
+function Developer() {
+  const styleProperty = {
+    color: 'aqua',
+    border: '2px solid tomato',
+    margin: '25px',
+    borderRadius: '20px'
+  }
+  return (
+    // <div style={styleProperty}>
+    <div style={{
+      color: 'aqua',
+      border: '2px solid tomato',
+      margin: '25px',
+      borderRadius: '20px'
+    }}>
+      <h3>Developer </h3>
+      <p>practice react  </p>
+    </div>
+  )
+}
 
 export default App
