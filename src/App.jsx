@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Do from './Do'
 import Actor from './Actor'
@@ -75,12 +72,12 @@ function Student(props) {
 
 // css style system
 function Developer() {
-  const styleProperty = {
-    color: 'aqua',
-    border: '2px solid tomato',
-    margin: '25px',
-    borderRadius: '20px'
-  }
+  // const styleProperty = {
+  //   color: 'aqua',
+  //   border: '2px solid tomato',
+  //   margin: '25px',
+  //   borderRadius: '20px'
+  // }
   return (
     // <div style={styleProperty}>
     <div style={{
